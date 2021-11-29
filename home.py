@@ -45,7 +45,7 @@ if __name__ == "__main__":
                            max_value=255, value=0, key="blue")
 
     st.write('Red: {}, Green: {}, Blue: {}'.format(Red, Green, Blue))
-    # display_image()
+    display_image()
     result = ""
     if st.button("Predict"):
         result = predict_color(Red, Green, Blue)
