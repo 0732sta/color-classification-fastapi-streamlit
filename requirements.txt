@@ -3,7 +3,6 @@ ConfigParser==5.1.0
 contextlib2==21.6.0
 cryptography==36.0.0
 curio==1.5
-Cython==0.29.24
 cython==0.29.24
 dl==0.1.0
 docutils==0.18.1
@@ -16,7 +15,6 @@ hypothesis==6.29.0
 importlib_metadata==4.8.2
 itsdangerous==2.0.1
 Jinja2==3.0.1
-jnius==1.1.0
 keyring==23.4.0
 lockfile==0.12.2
 lxml==4.6.4
