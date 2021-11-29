@@ -36,7 +36,7 @@ if __name__ == "__main__":
     st.image(image, caption='Pee color information')
 
     st.header("Select RGB values")
-    display_image()
+    
     Red = st.number_input(label="(R) RED value: ", min_value=0,
                           max_value=255, value=0, key="red")
     Green = st.number_input(label="(G) GREEN value: ",
@@ -45,7 +45,7 @@ if __name__ == "__main__":
                            max_value=255, value=0, key="blue")
 
     st.write('Red: {}, Green: {}, Blue: {}'.format(Red, Green, Blue))
-    
+    display_image()
     result = ""
     if st.button("Predict"):
         result = predict_color(Red, Green, Blue)
