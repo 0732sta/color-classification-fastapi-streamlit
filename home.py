@@ -26,7 +26,7 @@ if __name__ == "__main__":
 
     st.sidebar.title("About")
     st.sidebar.info(
-        "The 11 Classes system provide are *Red, Green, Blue, Yellow, Orange, Pink, Purple, Brown, Grey, Black and White.*\n\n"
+        "The 11 Classes system provide are *Red, Green, Blue, Yellow, Orange, Pink, Purple, Brown, Grey, Black and White.* However, the color of urine only focus on colors; *Yellow, Red, Orange, Green, Brown, Purple*. \n\n"
         "Please refer the pee color information have been given. For more information [click here](https://www.medicalnewstoday.com/articles/324469) for details.\n\n"
     )
 
