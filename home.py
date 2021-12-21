@@ -50,11 +50,11 @@ if __name__ == "__main__":
     if st.button("Predict"):
         result = predict_color(Red, Green, Blue)
         st.success('The Color is {}!'.format(result))
-        if ((format(result)=='Red') or (format(result)=='Pink'))
+        if (format(result)=='Red') or (format(result)=='Pink')
             st.success('Blood in urine, eating beetroor or blacberries')
         if format(result)=='Green' 
             st.succeess('Drugs containing phenol, some antidepressants, dyes in food and certain infection')
-        if ((format(result)=='Yellow') or (format(result)=='White'))
+        if (format(result)=='Yellow') or (format(result)=='White')
             st.success('You are well hydrated')
         if format(result)=='Orange'
             st.success('Having dehydration, certain drugs and medications and dietary factors such as eating lots of carrots')
