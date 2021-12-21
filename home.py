@@ -49,7 +49,7 @@ if __name__ == "__main__":
     result = ""
     if st.button("Predict"):
         result = predict_color(Red, Green, Blue)
-        st.write('The Color is {}!'.format(result))
+        #st.write('The Color is {}!'.format(result))
         
     if (format(result)=='Red'):  
         st.success('Blood in urine, eating beetroor or blacberries')
