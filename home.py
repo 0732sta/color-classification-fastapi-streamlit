@@ -51,10 +51,10 @@ if __name__ == "__main__":
         result = predict_color(Red, Green, Blue)
         #st.write('The Color is {}!'.format(result))
         
-    if (format(result)=='Red'):  
+    if (format(result)=='Red' or 'Pink'):  
         st.success('Blood in urine, eating beetroor or blacberries')
-    elif (format(result)=='Pink'):
-        st.success('Blood in urine, eating beetroor or blacberries')
+    #elif (format(result)=='Pink'):
+     #   st.success('Blood in urine, eating beetroor or blacberries')
     elif (format(result)=='Green'): 
         st.success('Drugs containing phenol, some antidepressants, dyes in food and certain infection')
     elif (format(result)=='Yellow'):
