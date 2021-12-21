@@ -51,21 +51,21 @@ if __name__ == "__main__":
         result = predict_color(Red, Green, Blue)
         st.success('The Color is {}!'.format(result))
         if (format(result)=='Red'):  
-            st.success('Blood in urine, eating beetroor or blacberries')
+            st.write('Blood in urine, eating beetroor or blacberries')
         elif (format(result)=='Pink'):
-            st.success('Blood in urine, eating beetroor or blacberries')
+            st.write('Blood in urine, eating beetroor or blacberries')
         elif (format(result)=='Green'): 
-            st.succeess('Drugs containing phenol, some antidepressants, dyes in food and certain infection')
+            st.write('Drugs containing phenol, some antidepressants, dyes in food and certain infection')
         elif (format(result)=='Yellow'):
-            st.success('You are well hydrated')
+            st.write('You are well hydrated')
         elif (format(result)=='White'):
-            st.success('You are well hydrated')
+            st.write('You are well hydrated')
         elif (format(result)=='Orange'):
-            st.success('Having dehydration, certain drugs and medications and dietary factors such as eating lots of carrots')
+            st.write('Having dehydration, certain drugs and medications and dietary factors such as eating lots of carrots')
         elif (format(result)=='Purple'):  
-            st.success('Porphyria, a rare metabolic disorder')
+            st.write('Porphyria, a rare metabolic disorder')
         elif (format(result)=='Brown'):   
-            st.success('certain antipsychotic drugs, certain antibiotics')
+            st.write('certain antipsychotic drugs, certain antibiotics')
         else:
-            st.success(format(result))
+            st.write(format(result))
                        
