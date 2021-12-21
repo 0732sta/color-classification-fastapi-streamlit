@@ -50,16 +50,22 @@ if __name__ == "__main__":
     if st.button("Predict"):
         result = predict_color(Red, Green, Blue)
         st.success('The Color is {}!'.format(result))
-        if (format(result)=='Red') or (format(result)=='Pink')
+        if (format(result)=='Red'):  
             st.success('Blood in urine, eating beetroor or blacberries')
-        if format(result)=='Green' 
+        elif (format(result)=='Pink'):
+            st.success('Blood in urine, eating beetroor or blacberries')
+        elif (format(result)=='Green'): 
             st.succeess('Drugs containing phenol, some antidepressants, dyes in food and certain infection')
-        if (format(result)=='Yellow') or (format(result)=='White')
+        elif (format(result)=='Yellow'):
             st.success('You are well hydrated')
-        if format(result)=='Orange'
+        elif (format(result)=='White'):
+            st.success('You are well hydrated')
+        elif (format(result)=='Orange'):
             st.success('Having dehydration, certain drugs and medications and dietary factors such as eating lots of carrots')
-        if format(result)=='Purple'   
+        elif (format(result)=='Purple'):  
             st.success('Porphyria, a rare metabolic disorder')
-        if format(result)=='Brown'   
+        elif (format(result)=='Brown'):   
             st.success('certain antipsychotic drugs, certain antibiotics')
+        else:
+            st.success(format(result))
                        
